@@ -8,6 +8,7 @@
                     <div class="card-body">
                         I'm an example component.
                     </div>
+
                 </div>
             </div>
         </div>
@@ -16,6 +17,11 @@
 
 <script>
     export default {
+        data() {
+            return {
+                input: ''
+            }
+        },
         mounted() {
             console.log('Component mounted.')
         }
