@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/iconfont.css') }}" rel="stylesheet">
 
     <!-- 自己页面的css/js -->
     @yield('self_css')
@@ -77,6 +78,8 @@
         </nav>
 
         <main class="py-4">
+            <!-- 目录组件 -->
+            <menu-component></menu-component>
             @yield('content')
         </main>
     </div>

@@ -28,6 +28,8 @@ Vue.use(ElementUI);
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('menu-component',require('./components/MenuComponent.vue').default);
+Vue.component('input-component',require('./components/InputComponent.vue').default);
+Vue.component('select-component',require('./components/SelectComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
